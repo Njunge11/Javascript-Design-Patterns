@@ -66,8 +66,3 @@ An es6 example:
         const person2 = new Person('Jane', 23, 70)
         console.log(person1.personDetails())
         console.log(person2.personDetails())
-        ```
-
-
-
-
