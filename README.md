@@ -3,3 +3,5 @@ Chances are you have intuitively used design patterns when building things using
 ## Design Patterns:
 - [Constructor Pattern](#constructor)
 - [Module Pattern](#module)
+### Constructor Pattern
+
