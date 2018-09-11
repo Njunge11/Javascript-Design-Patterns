@@ -28,5 +28,11 @@ Notice any issues with the code above?
 - It makes inheritance difficult.
 - The personDetails function is redefined each time you create a new object using the Person constructor, which is not optimal. Ideally a single instance of personDetails() should shared by all the Person objects. This can be achieved by using prototypes.
 #### Constructors with Prototypes
+- Almost all javascript objects contain prototype objects, and this also applies to functions. 
+- When we call a constructor to create an object, all the properties of the constructor's prototype are available to new objects.
+- Therefore several objects can access the same prototype.
+
+We can apply this concept to create a function that is not redefined whenever a new Person object is created. This function can shared by several objects as shown below:
+
 
 
