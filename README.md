@@ -50,6 +50,23 @@ Person.prototype.personDetails = function () {
         console.log(person2.personDetails())
 ```
 An es6 example:
+```javascript
+ class Person {
+            constructor (name, age, weight) {
+                this.name = name
+                this.age = age
+                this.weight = weight
+            }
+            personDetails () {
+                return this.name + ' is ' + this.age + ' years old'
+                    + ' and weighs ' + this.weight + ' kgs'
+            }
+        }
+        const person1 = new Person('John', 29, 80)
+        const person2 = new Person('Jane', 23, 70)
+        console.log(person1.personDetails())
+        console.log(person2.personDetails())
+        ```
 
 
 
