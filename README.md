@@ -4,6 +4,7 @@ Chances are you have intuitively used design patterns when building things using
 - [Constructor Pattern](#constructor-pattern)
 - [Module Pattern](#module)
 ### Constructor Pattern
+#### Basic Constructor
 - A constructor is a special method for creating and intializing an object created within a class.
 - Javascript supports special constructor functions. By prefixing the new keyword to a function we can make it behave like a constructor.
 
@@ -23,4 +24,9 @@ For example:
         console.log(person1.personDetails())
         console.log(person2.personDetails())
 ```
+Notice any issues with the code above?
+- It makes inheritance difficult.
+- The personDetails function is redefined each time you create a new object using the Person constructor, which is not optimal. Ideally a single instance of personDetails() should shared by all the Person objects. This can be achieved by using prototypes.
+#### Constructors with Prototypes
+
 
