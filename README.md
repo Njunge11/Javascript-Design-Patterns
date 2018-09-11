@@ -38,8 +38,8 @@ function Person (name, age, weight) {
             this.name = name
             this.age = age
             this.weight = weight
-        }
-        Person.prototype.personDetails = function () {
+}
+Person.prototype.personDetails = function () {
             return this.name + ' is ' + this.age + ' years old'
                 + ' and weighs ' + this.weight + ' kgs'
 
