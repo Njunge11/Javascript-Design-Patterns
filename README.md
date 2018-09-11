@@ -49,6 +49,7 @@ Person.prototype.personDetails = function () {
         console.log(person1.personDetails())
         console.log(person2.personDetails())
 ```
+An es6 example:
 
 
 
