@@ -2,7 +2,7 @@
 Chances are you have intuitively used design patterns when building things using your favourite js framework or even good old vanilla js. Chances are you can't explicitly describe those patterns and possibly don't have a deep understanding. This repo is for you or anyone that wants to familiarize themselves with essential design pattern concepts.
 ## Design Patterns:
 - [Constructor Pattern](#constructor-pattern)
-- [Module Pattern](#module)
+- [Module Pattern](#module-pattern)
 ### Constructor Pattern
 #### Basic Constructor
 - A constructor is a special method for creating and intializing an object created within a class.
@@ -66,3 +66,6 @@ An es6 example:
         const person2 = new Person('Jane', 23, 70)
         console.log(person1.personDetails())
         console.log(person2.personDetails())
+```
+### Module Pattern
+# COMING SOON
