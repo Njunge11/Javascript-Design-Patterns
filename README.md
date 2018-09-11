@@ -4,5 +4,22 @@ Chances are you have intuitively used design patterns when building things using
 - [Constructor Pattern](#constructor-pattern)
 - [Module Pattern](#module)
 ### Constructor Pattern
-Testing testing 123
+- A constructor is a special method for creating and intializing an object created within a class.
+- Javascript supports special constructor functions. By prefixing the new keyword to a function we can make it behave like a constructor.
+An example:
+```javascript
+ function Person(name, age, weight) {
+            this.name = name
+            this.age = age
+            this.weight = weight
+            this.personDetails = function () {
+                return this.name + ' is ' + this.age + ' years old' 
+                + ' and weighs ' + this.weight + ' kgs'
+            }
+        }
+        var person1 = new Person('John', 29, 80)
+        var person2 = new Person('Jane', 23, 70)
+        console.log(person1.personDetails())
+        console.log(person2.personDetails())
+```
 
