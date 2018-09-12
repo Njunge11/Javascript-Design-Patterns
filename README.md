@@ -49,7 +49,7 @@ Person.prototype.personDetails = function () {
         console.log(person1.personDetails())
         console.log(person2.personDetails())
 ```
-An es6 example:
+Of course, we could always use es6 classes:
 ```javascript
  class Person {
             constructor (name, age, weight) {
