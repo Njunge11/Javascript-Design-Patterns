@@ -3,7 +3,7 @@ Chances are you have intuitively used design patterns when building things using
 ## Design Patterns:
 - [Constructor Pattern](#constructor-pattern)
 - [Module Pattern](#module-pattern)
-  - [Object Literals](#object-literals)
+  - [The Module Pattern](#the-module-pattern)
 ### Constructor Pattern
 #### Basic Constructor
 - A constructor is a special method for creating and intializing an object created within a class.
@@ -69,6 +69,7 @@ Of course, we could always use es6 classes:
         console.log(person2.personDetails())
 ```
 ### Module Pattern
+#### The Module Pattern
 - Modules help keep a project's code cleanly separated and organized.
 - This pattern uses closures to encapsulate "privacy", state and organization. 
 - Only a public API is returned, keeping everything else within the closure private.
