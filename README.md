@@ -74,6 +74,6 @@ Of course, we could always use es6 classes:
 - This pattern uses closures to encapsulate "privacy", state and organization. 
 - The pattern utilizes an immediately-invoked function expression (IIFE ), where only an object is returned, keeping everything else within the closure private.
 - It protects pieces of your code(public/private methods and variables) from leaking into the global scope and undesirably colliding with another developer's interface.
-- Javascript does not have access modifiers therfore you cannot explicitly declare variables as "public" or "private". This concept is simulated using scope.
+- Javascript does not have access modifiers therefore you cannot explicitly declare variables as "public" or "private". This concept is simulated using scope.
 - Variables or methods declared within the module and not defined in the returning object will be private. Anything defined in the returning object will be publicly available.
 # EXAMPLE COMING UP NEXT :-)
