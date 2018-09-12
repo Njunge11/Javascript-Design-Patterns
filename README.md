@@ -69,5 +69,8 @@ Of course, we could always use es6 classes:
         console.log(person2.personDetails())
 ```
 ### Module Pattern
-Object Literals
+- Modules help keep a project's code cleanly separated and organized.
+- This pattern uses closures to encapsulate "privacy", state and organization. 
+- Only a public API is returned, keeping everything else within the closure private.
+- The pattern protects pieces of your code(public/private methods and variables) from leaking into the global scope and undesirably colliding with another developer's interface.
 # COMING SOON
