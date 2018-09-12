@@ -3,7 +3,7 @@ Chances are you have intuitively used design patterns when building things using
 ## Design Patterns:
 - [Constructor Pattern](#constructor-pattern)
 - [Module Pattern](#module-pattern)
-  -[Object Literals](#object-literals)
+  - [Object Literals](#object-literals)
 ### Constructor Pattern
 #### Basic Constructor
 - A constructor is a special method for creating and intializing an object created within a class.
@@ -69,4 +69,5 @@ Of course, we could always use es6 classes:
         console.log(person2.personDetails())
 ```
 ### Module Pattern
+Object Literals
 # COMING SOON
