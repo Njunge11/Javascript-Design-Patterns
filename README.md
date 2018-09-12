@@ -3,6 +3,7 @@ Chances are you have intuitively used design patterns when building things using
 ## Design Patterns:
 - [Constructor Pattern](#constructor-pattern)
 - [Module Pattern](#module-pattern)
+  -[Object Literals](#object-literals)
 ### Constructor Pattern
 #### Basic Constructor
 - A constructor is a special method for creating and intializing an object created within a class.
